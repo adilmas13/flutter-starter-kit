@@ -1,0 +1,30 @@
+app:
+  android:
+    flavorDimensions: "env"
+
+flavors:
+  production:
+    app:
+      name: "flutter_starter_kit"
+    android:
+      applicationId: "com.example.flutter_starter_kit"
+      firebase:
+        config: ".firebase/production/google-services.json"
+    ios:
+      bundleId: "com.example.flutter_starter_kit"
+      firebase:
+        config: ".firebase/production/GoogleService-Info.plist"
+
+  development:
+    app:
+      name: "flutter_starter_kit_dev"
+    android:
+      applicationId: "com.example.flutter_starter_kit.dev"
+      firebase:
+        config: ".firebase/development/google-services.json"
+    ios:
+      bundleId: "com.example.flutter_starter_kit.dev"
+      firebase:
+        config: ".firebase/development/GoogleService-Info.plist"
+
+ide: "idea"
