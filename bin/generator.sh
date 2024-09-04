@@ -3,6 +3,7 @@
 # List of package directories
 packages=("presentation" "data" "domain")
 
+cd packages
 # Loop through each package directory
 for package in "${packages[@]}"
 do
