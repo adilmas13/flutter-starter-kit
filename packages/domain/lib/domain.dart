@@ -3,14 +3,15 @@ library;
 // entities
 export 'src/entity/analytics/analytics_common_properties/analytics_common_properties.dart';
 export 'src/entity/analytics/analytics_user_properties/analytics_user_properties.dart';
+export 'src/entity/analytics/base_analytics_event.dart';
 export 'src/entity/analytics/login_failure_analytics_event/login_failure_analytics_event.dart';
 export 'src/entity/analytics/login_success_analytics_event/login_success_analytics_event.dart';
 export 'src/entity/analytics/otp_failure_analytics_event/otp_failure_analytics_event.dart';
 export 'src/entity/analytics/otp_success_analytics_event/otp_success_analytics_event.dart';
-export 'src/entity/analytics/base_analytics_event.dart';
-export 'src/entity/theme_style/theme_style.dart';
+export 'src/entity/analytics/signup_failure_analytics_event/signup_failure_analytics_event.dart';
+export 'src/entity/analytics/signup_success_analytics_event/signup_success_analytics_event.dart';
 export 'src/entity/error.dart';
-
+export 'src/entity/theme_style/theme_style.dart';
 // repositories
 export 'src/repository/analytics_repository.dart';
 export 'src/repository/app_repository.dart';

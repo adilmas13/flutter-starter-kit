@@ -61,6 +61,8 @@ flutter:
   assets:
     - .env.development
     - .env.production
+    - assets/icons/apple_icon.png
+    - assets/icons/google_icon.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:

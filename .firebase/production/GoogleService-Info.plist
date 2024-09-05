@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string></string>
+	<string>AIzaSyAmaIVLe1ujQeug7cpVIuEfd2hqt6NowUU</string>
 	<key>GCM_SENDER_ID</key>
-	<string></string>
+	<string>964288054500</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.example.flutter_starter_kit</string>
+	<string>com.example.flutter-starter-kit</string>
 	<key>PROJECT_ID</key>
-	<string>vidooze-prod</string>
+	<string>sample-prod-89d5e</string>
 	<key>STORAGE_BUCKET</key>
-	<string>flutter_starter_kit-prod.appspot.com</string>
+	<string>sample-prod-89d5e.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string></string>
+	<string>1:964288054500:ios:7e57f9a0955fe2ee0898f1</string>
 </dict>
 </plist>

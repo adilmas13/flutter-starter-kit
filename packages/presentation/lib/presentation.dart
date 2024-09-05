@@ -1,8 +1,5 @@
-/// Support for doing something awesome.
-///
-/// More dartdocs go here.
 library;
 
-export 'src/presentation_base.dart';
-
-// TODO: Export any libraries intended for clients of this package.
+export 'src/app.dart' show App;
+export 'src/app_store.dart';
+export 'src/user_store.dart';

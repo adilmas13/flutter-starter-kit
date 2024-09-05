@@ -11,7 +11,7 @@ flavors:
       firebase:
         config: ".firebase/production/google-services.json"
     ios:
-      bundleId: "com.example.flutter_starter_kit"
+      bundleId: "com.example.flutter-starter-kit"
       firebase:
         config: ".firebase/production/GoogleService-Info.plist"
 
@@ -23,7 +23,7 @@ flavors:
       firebase:
         config: ".firebase/development/google-services.json"
     ios:
-      bundleId: "com.example.flutter_starter_kit.dev"
+      bundleId: "com.example.flutter-starter-kit.dev"
       firebase:
         config: ".firebase/development/GoogleService-Info.plist"
 

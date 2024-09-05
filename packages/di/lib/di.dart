@@ -1,8 +1,4 @@
-/// Support for doing something awesome.
-///
-/// More dartdocs go here.
 library;
 
-export 'src/di_base.dart';
-
-// TODO: Export any libraries intended for clients of this package.
+export 'src/di_config_options.dart';
+export 'src/init_di.dart';
