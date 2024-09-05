@@ -25,9 +25,15 @@ Starter kit for flutter projects
 ## Understanding the project
 1. The project follows some what clean architecture (usecases not included)
    - `packages/presentation`
+      - Every page widget should compulsory extend `BaseStatefulPageWidget`
+      - Every page widget will have its own PageStore which should extend `BasePageStore`       
    - `packages/domain`
+      - sanitized dto 
    - `packages/data`
+      - Any rest datasource should extend `BaseRemoteDataSource`
+      - Repository should extend `BaseRepository` 
    - `packages/di` (additional for dependency injection)
+      - configure dependency tree 
   
 2. The project has two environments, `development` and `production`. This can be extended to create more environments
    - Add the required `.env.production` and `.env.development`
