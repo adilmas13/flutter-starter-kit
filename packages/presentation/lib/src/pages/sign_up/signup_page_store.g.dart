@@ -25,6 +25,40 @@ mixin _$SignUpPageStore on _SignUpPageStore, Store {
     });
   }
 
+  late final _$_handleSignupSuccessAsyncAction =
+      AsyncAction('_SignUpPageStore._handleSignupSuccess', context: context);
+
+  @override
+  Future _handleSignupSuccess(bool _value) {
+    return _$_handleSignupSuccessAsyncAction
+        .run(() => super._handleSignupSuccess(_value));
+  }
+
+  late final _$_handleSignupFailureAsyncAction =
+      AsyncAction('_SignUpPageStore._handleSignupFailure', context: context);
+
+  @override
+  Future _handleSignupFailure(BaseError _value) {
+    return _$_handleSignupFailureAsyncAction
+        .run(() => super._handleSignupFailure(_value));
+  }
+
+  late final _$signupAsyncAction =
+      AsyncAction('_SignUpPageStore.signup', context: context);
+
+  @override
+  Future signup(
+      {required String email,
+      required String password,
+      required String firstName,
+      required String lastName}) {
+    return _$signupAsyncAction.run(() => super.signup(
+        email: email,
+        password: password,
+        firstName: firstName,
+        lastName: lastName));
+  }
+
   @override
   String toString() {
     return '''
